@@ -13,3 +13,13 @@ def Padres(request):
     plantilla = loader.get_template('padres.html')
     documento = plantilla.render()
     return HttpResponse(documento)
+
+def Hermanos(request):
+    plantilla = loader.get_template('hermanos.html')
+    documento = plantilla.render()
+    return HttpResponse(documento)
+
+def Abuelos(request):
+    plantilla = loader.get_template('abuelos.html')
+    documento = plantilla.render()
+    return HttpResponse(documento)

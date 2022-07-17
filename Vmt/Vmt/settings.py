@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Vmt.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/gatov/Desktop/Workspace Django/PruebaMVT/VMT/Vmt/Vmt/Template"],
+        'DIRS': ["C:/Users/gatov/Desktop/Workspace Django/PruebaMVTgit/Prueba-MVT/Vmt/Vmt/Template"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

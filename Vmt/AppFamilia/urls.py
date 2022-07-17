@@ -1,8 +1,9 @@
 from django.urls import path
 
-from AppFamilia.views import Inicio, Padres
+from AppFamilia.views import Inicio, Padres, Hermanos
 
 urlpatterns = [
     path('', Inicio),
-    path('padres.html/',Padres),
+    path('padres/',Padres),
+    path('hermanos/', Hermanos),
 ]
