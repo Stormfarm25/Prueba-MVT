@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppFamilia</title>
+</head>
+<body>
+    <h1>App Familia</h1>
+    <div id="navbar">
+        <a href="padres/" style="color:black; text-decoration-line: none;"><h2 id="padres">Padres</h2></a>
+        <a href="hermanos/" style="color:black; text-decoration-line: none;"><h2 id="hermanos">Hermanos</h2></a>
+        <a href="abuelos/" style="color:black; text-decoration-line: none;"><h2 id="abuelos">Abuelos</h2></a>
+    </div>
+</body>
+</html>
+
+<style>
+    h1 {
+        font-size: 4rem;
+        text-align: center;
+        padding-top: 2rem;
+        border-color: aliceblue;
+        border-style: solid;
+        border-width: 2px;
+        margin-top: 0px;
+    }
+    body{
+        background-color: grey;
+    }
+    #navbar {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        text-decoration: none;
+    }
+    #padres {font-size: 3rem;
+        padding-left: 3.5rem;
+    }
+    #hermanos {
+        font-size: 3rem;
+        padding-left: -2rem;
+    }
+    #abuelos {
+        font-size: 3rem;
+        padding-right: 3.5rem;
+    }
+</style> -->
