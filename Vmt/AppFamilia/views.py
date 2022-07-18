@@ -5,7 +5,7 @@ from django.template import Template,Context
 from django.template import loader
 from AppFamilia.models import Familia
 # Create your views here.
-
+# Codigo de Vitor Lira , PrimerMVT - Coder.
 def Inicio(request):
     plantilla = loader.get_template('FamiliaInicio.html')
     documento = plantilla.render()
